@@ -1270,7 +1270,7 @@ if (submitEmailBtn) {
                         const success = await loadQuizData(jsonToLoad);
                         if (success && currentQuizQuestions.length > 0) {
                             // Check for DT-T0 untimed logic
-                            const isDtT0Module = firstQuizName.startsWith("DT-T0-");
+                            const isDtT0Module = firstQuizName.startsWith("PT-T1-");
                             if (isDtT0Module) {
                                 startPracticeQuizTimer(); 
                                 currentModuleTimeUp = true; // Allows immediate progression
@@ -1386,7 +1386,7 @@ async function reviewNextButtonClickHandler() {
 
     if (currentModuleIndex < currentTestFlow.length) {
         const isEndOfRwSection = (currentTestFlow[moduleIndexJustCompleted].includes("-RW-M2"));
-        const currentTestIsDtT0 = currentTestFlow.length > 0 && currentTestFlow[0].startsWith("DT-T0-");
+        const currentTestIsDtT0 = currentTestFlow.length > 0 && currentTestFlow[0].startsWith("PT-T1-");
 
         if (currentInteractionMode === 'full_test' && isEndOfRwSection && !currentTestIsDtT0) {
             console.log("DEBUG reviewNextBtnHandler: End of R&W section. Showing manual break view.");
@@ -1761,7 +1761,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     if (currentTestFlow && currentTestFlow.length > 0) {
                         const firstQuizName = currentTestFlow[currentModuleIndex];
                         const moduleInfo = moduleMetadata[firstQuizName];
-                        const isDtT0Module = firstQuizName.startsWith("DT-T0-");
+                        const isDtT0Module = firstQuizName.startsWith("PT-T1-");
                         const success = await loadQuizData(firstQuizName);
                         if (success && currentQuizQuestions.length > 0) {
                             if (isDtT0Module) {
