@@ -186,7 +186,7 @@
     <div id="email-overlay">
         <div class="hub-card">
             <h1>Welcome</h1>
-            <p>Please enter your email to access the Diagnostic Test.</p>
+            <p>Please enter your email to access the Practice Test.</p>
             <input type="email" id="email-input" placeholder="your.email@example.com">
             <button id="submit-email-button">Save & Continue</button>
         </div>
@@ -194,7 +194,7 @@
 
     <div class="hub-container" id="main-content" style="display: none;">
         <div class="hub-card">
-            <h1>Digital SAT Diagnostic Test</h1>
+            <h1>Digital SAT Pratice Test 1</h1>
             <p>Complete all four modules to see your results. Please proceed in order.</p>
             
             <div id="status-message">Loading...</div>
@@ -232,7 +232,7 @@
             const STUDENT_EMAIL_KEY = 'bluebookStudentEmail'; // Should match the key in quiz.html
             const MODULE_ORDER = ["PT-T1-RW-M1", "PT-T1-RW-M2", "PT-T1-MT-M1", "PT-T1-MT-M2"];
             const QUIZ_PLAYER_PATH = 'quiz.html'; // Adjust if your file structure is different
-            const DASHBOARD_PATH = 'https://ghiassabir.github.io/Student-dashboard-with-real-data-v1/index.html'; // The page for viewing results
+            const DASHBOARD_PATH = 'https://ghiassabir.github.io/Practice-Test-1-Dashboard/index.html'; // The page for viewing results
 
             // --- DOM ELEMENTS ---
             const emailOverlay = document.getElementById('email-overlay');
@@ -278,7 +278,7 @@
             function updateButtonStates() {
                 let nextModuleIndex = MODULE_ORDER.findIndex(moduleName => !completionState[moduleName]);
                 if (nextModuleIndex === -1) { // All modules are complete
-                    statusMessage.textContent = "Congratulations! You have completed the diagnostic test.";
+                    statusMessage.textContent = "Congratulations! You have completed the Practice test 1.";
                 } else {
                     statusMessage.textContent = `Next up: ${document.querySelector(`[data-index="${nextModuleIndex}"] span:last-child`).textContent}`;
                 }
