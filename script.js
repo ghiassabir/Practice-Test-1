@@ -1357,7 +1357,7 @@ async function reviewNextButtonClickHandler() {
     // Check if we came from the diagnostic hub page
     if (globalOriginPageId === 'index') { // Assumes originPageId is 'index' for diagnostic hub
         console.log("DEBUG: Updating diagnostic test state from quiz player.");
-        const DIAGNOSTIC_TEST_STATE_KEY = 'diagnosticTestState_DT-T0'; // Must match key in index.html
+        const DIAGNOSTIC_TEST_STATE_KEY = 'diagnosticTestState_PT-T1'; // Must match key in index.html
         let diagnosticStateJSON = localStorage.getItem(DIAGNOSTIC_TEST_STATE_KEY);
         let diagnosticState = diagnosticStateJSON ? JSON.parse(diagnosticStateJSON) : {};
         
