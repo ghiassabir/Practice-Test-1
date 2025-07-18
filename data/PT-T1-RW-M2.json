@@ -24,7 +24,7 @@
     "feedback_b": "\"More general\" often implies a lack of specific detail. While tourism is a general category, the context here is about the wide scope of its components, making \"extensive\" a better fit.",
     "feedback_c": "\"More spacious\" refers to physical space and area. The text is discussing the scope of a business concept, not a physical area.",
     "feedback_d": "This is the correct answer. \"More extensive\" means covering a wider range of elements or topics, which accurately describes how the text contrasts the simple idea of a \"destination\" with the complex \"tourism business.\"",
-    "passage_content": "Any country, city, or rural village could be, in fact, its own unique tourism magnet. The tourism business, though, is broader than just the destination. Considerations need to be made for transportation, hotels and guest accommodations, and services that link the various components of a trip, such as guide services in national parks or city bus tours.",
+    "passage_content": "Any country, city, or rural village could be, in fact, its own unique tourism magnet. The tourism business, though, is <u>broader</u> than just the destination. Considerations need to be made for transportation, hotels and guest accommodations, and services that link the various components of a trip, such as guide services in national parks or city bus tours.",
     "question_stem": "As used in the text, what does the word \"broader\" most nearly mean?"
   },
   {
@@ -52,7 +52,7 @@
     "feedback_b": "\"Negligible\" means insignificant or too small to be important. Marianne is saying the trees don't notice the change, not that the change is negligible.",
     "feedback_c": "This is the correct answer. \"Insensible\" in this context means lacking awareness or feeling. The trees are unaware of the human drama unfolding beneath them.",
     "feedback_d": "\"Insentient\" means inanimate or lacking consciousness. While trees are insentient, the more direct meaning in the sentence, paralleling \"unconscious,\" is that they are not aware of the specific changes.",
-    "passage_content": "The following text is from Jane Austen's 1811 novel, \"Sense and Sensibility.\" Many were the tears shed by them in their last adieus to a place so much beloved. \"And you, ye well-known trees,\" said Marianne, \"but you will continue the same, unconscious of the pleasure or the regret you occasion, and insensible of any change in those who walk under your shade! But who will remain to enjoy you?\"",
+    "passage_content": "The following text is from Jane Austen's 1811 novel, \"Sense and Sensibility.\" Many were the tears shed by them in their last adieus to a place so much beloved. \"And you, ye well-known trees,\" said Marianne, \"but you will continue the same, unconscious of the pleasure or the regret you occasion, and <u>insensible</u> of any change in those who walk under your shade! But who will remain to enjoy you?\"",
     "question_stem": "As used in the text, what does the word \"insensible\" most nearly mean?"
   },
   {
@@ -80,7 +80,7 @@
     "feedback_b": "\"Stench\" means a strong, unpleasant smell. This does not fit the emotional context of the list.",
     "feedback_c": "\"Pollution\" refers to contamination of the environment. This does not fit the emotional context of the list.",
     "feedback_d": "This is the correct answer. \"Ire\" means anger. Placed in the list with \"fuss,\" \"applause,\" and \"ill will,\" it correctly describes an emotional reaction of anger or intense irritation from others as Adam made his fortune.",
-    "passage_content": "The following text is adapted from F. Scott Fitzgerald's 1922 novel, The Beautiful and the Damned. Now Adam J. Patch left his father's farm in Tarrytown early in sixty-one to join a New York cavalry regiment. He came home from the war a major, charged into Wall Street, and amid much fuss, fume, applause, and ill will he gathered to himself some seventy-five million dollars.",
+    "passage_content": "The following text is adapted from F. Scott Fitzgerald's 1922 novel, The Beautiful and the Damned. Now Adam J. Patch left his father's farm in Tarrytown early in sixty-one to join a New York cavalry regiment. He came home from the war a major, charged into Wall Street, and amid much fuss, <u>fume,</u>, applause, and ill will he gathered to himself some seventy-five million dollars.",
     "question_stem": "As used in the text, what does the word \"fume\" most nearly mean?"
   },
   {
